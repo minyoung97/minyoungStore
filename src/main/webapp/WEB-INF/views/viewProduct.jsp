@@ -13,19 +13,20 @@
 					value="/resources/images/${product.name}.jpg" />
 				<img src="<c:url value="${imageFilename}" />" alt="image"
 					style="width: 80%" />
-				<div class="col-md-6">
-					<h3>${product.name}</h3>
-					<p>${product.description}</p>
-					<p>
-						<b>Manufacturer</b> : ${product.manufacturer}
-					</p>
-					<p>
-						<b>Category</b> : ${product.category}
-					</p>
-					<p>
-					<h3>${product.price}원</h3>
-					</p>
-				</div>
+			</div>
+			<div class="col-md-6">
+				<h3>${product.name}</h3>
+				<p>${product.description}</p>
+				<p>
+					<b>Manufacturer</b> : ${product.manufacturer}
+				</p>
+				<p>
+					<b>Category</b> : ${product.category}
+				</p>
+				<p>
+				<h3>${product.price}원</h3>
+				</p>
+
 			</div>
 		</div>
 	</div>
